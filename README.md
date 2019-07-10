@@ -1,3 +1,5 @@
+![Alt text](/src/screenshot1.png?raw=true "Screenshot 1")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
