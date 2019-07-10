@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* creates a new stacking context on the header */
+#header {
+  position: relative;
+}
+
+/* positions header-content at the bottom of header's context */
+#header-content {
+  position: absolute;
+  bottom: 0;
+}
