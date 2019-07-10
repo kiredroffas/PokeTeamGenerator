@@ -1,8 +1,10 @@
 ## Screenshots
 
 ![Alt text](/src/screenshot1.png?raw=true "Screenshot 1")
-## --- random button pressed...
+## --- if random button pressed...
 ![Alt text](/src/screenshot2.png?raw=true "Screenshot 2")
+## --- otherwise enter in your own team manually!
+![Alt text](/src/screenshot3.png?raw=true "Screenshot 3")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
