@@ -225,7 +225,7 @@ class App extends React.Component {
                   <button type="button" style={{ width: 100, fontSize: 15, color: "blue" }} onClick={this.handleSubmit}>Submit</button>
                   <br /><br />
                   <h2>ENTERING: {this.state.userInput}</h2>
-                  <button type="button" style={{ width: 130, fontSize: 15 }} onClick={this.handleRandom}>Random team! (all gen</button>
+                  <button type="button" style={{ width: 130, fontSize: 15 }} onClick={this.handleRandom}>Random team! (all gen)</button>
                   <h2>ENTERED: {this.state.entered} </h2>
                   <button type="button" style={{ width: 100, fontSize: 15 }} onClick={this.handleReset}>Reset Team</button>
                 </center>
