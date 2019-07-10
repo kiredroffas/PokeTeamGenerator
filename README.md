@@ -5,6 +5,8 @@
 ![Alt text](/src/screenshot2.png?raw=true "Screenshot 2")
 ## --- otherwise enter in your own team manually!
 ![Alt text](/src/screenshot3.png?raw=true "Screenshot 3")
+## --- if a non gen-1 pokemon is entered manually...
+![Alt text](/src/screenshot4.png?raw=true "Screenshot 4")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
