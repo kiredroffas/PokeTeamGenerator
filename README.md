@@ -8,7 +8,7 @@
 ## --- If a non gen-1 pokemon is entered manually...
 ![Alt text](/src/screenshots/screenshot4.png?raw=true "Screenshot 4")
 
-## --- TODO: Enable error checking to ignore randomly type selected pokemon with no sprite image
+## --- TODO: Enable error checking to deal with randomly type selected pokemon with no sprite image (some new gen pokemon in PokeAPI have sprite value of 'null')
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
