@@ -1,12 +1,12 @@
 ## Screenshots
 
-![Alt text](/src/screenshot1.png?raw=true "Screenshot 1")
-## --- if random button pressed...
-![Alt text](/src/screenshot2.png?raw=true "Screenshot 2")
-## --- otherwise enter in your own team manually!
-![Alt text](/src/screenshot3.png?raw=true "Screenshot 3")
-## --- if a non gen-1 pokemon is entered manually...
-![Alt text](/src/screenshot4.png?raw=true "Screenshot 4")
+![Alt text](/src/screenshots/screenshot1.png?raw=true "Screenshot 1")
+## --- If random button pressed a random team will be generated for you! Choose specific types if you wish!
+![Alt text](/src/screenshots/screenshot2.png?raw=true "Screenshot 2")
+## --- Otherwise enter in your own team manually! 
+![Alt text](/src/screenshots/screenshot3.png?raw=true "Screenshot 3")
+## --- If a non gen-1 pokemon is entered manually...
+![Alt text](/src/screenshots/screenshot4.png?raw=true "Screenshot 4")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
