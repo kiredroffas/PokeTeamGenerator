@@ -23,7 +23,6 @@ class App extends React.Component {
       names: [],
       types: [],
       typeBars: []
-      //randURL: ''
     };
     this.handleUserInput = this.handleUserInput.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -32,7 +31,7 @@ class App extends React.Component {
     this.handleRandom = this.handleRandom.bind(this);
   }
 
-  /*componentDidMount() {
+  /*componentDidMount() {         //Normally you put api calls here, but for this app api calls on made in onClick event handlers
     console.log(URL + this.state.name);
     fetch(URL + this.state.name)
       .then(res => res.json())
@@ -86,7 +85,6 @@ class App extends React.Component {
       console.log("Types are checked!")
       let pokeCount = 0;
       while (pokeCount < 6) {
-        let randName = ""
         let randURL = "";
         let index = this.getRandomInt(checkedTypes.length, 1);
         console.log("Random selected type is: " + checkedTypes[index])
@@ -96,12 +94,8 @@ class App extends React.Component {
             console.log(result.pokemon)
             let selectPok = this.getRandomInt(result.pokemon.length, 1);
             console.log(result.pokemon[selectPok].pokemon.name)
-            randName = result.pokemon[selectPok].pokemon.name;
             console.log(result.pokemon[selectPok].pokemon.url)
-            randURL = result.pokemon[selectPok].pokemon.url;  //SAVE THIS INTO A STATE VARIABLE
-            /*this.setState({
-              randURL: result.pokemon[selectPok].pokemon.url
-            });*/
+            randURL = result.pokemon[selectPok].pokemon.url; 
             console.log(randURL)
 
             fetch(randURL)
@@ -160,9 +154,6 @@ class App extends React.Component {
               )
           }
           )
-        /*this.setState({
-          randURL: ''
-        });*/
         pokeCount++;
       }
     }

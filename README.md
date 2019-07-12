@@ -8,6 +8,9 @@
 ## --- If a non gen-1 pokemon is entered manually...
 ![Alt text](/src/screenshots/screenshot4.png?raw=true "Screenshot 4")
 
+## --- TODO: Enable error checking to ignore randomly type selected pokemon with no sprite image
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
