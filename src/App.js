@@ -95,7 +95,7 @@ class App extends React.Component {
             let selectPok = this.getRandomInt(result.pokemon.length, 1);
             console.log(result.pokemon[selectPok].pokemon.name)
             console.log(result.pokemon[selectPok].pokemon.url)
-            randURL = result.pokemon[selectPok].pokemon.url; 
+            randURL = result.pokemon[selectPok].pokemon.url;
             console.log(randURL)
 
             fetch(randURL)
@@ -222,7 +222,7 @@ class App extends React.Component {
 
   handleSubmit() {
     let check = 0;
-    for (let i = 0; i < pokemonList.length; i++) {
+    /*for (let i = 0; i < pokemonList.length; i++) {
       if (pokemonList[i] === this.state.userInput) {
         check = 1;
         console.log(this.state.userInput + " entered");
@@ -235,10 +235,16 @@ class App extends React.Component {
         console.log("Now: " + this.state.userInput);
         break;
       }
-    }
-
+    } */
+    check = 1;
     if (check === 1) {
       fetch(URL + this.state.userInput)
+        .then(function (response) {
+          if (!response.ok) {
+            throw Error(response.statusText);
+          }
+          return response;
+        })
         .then(res => res.json())
         .then((result) => {
           this.setState({
@@ -290,7 +296,9 @@ class App extends React.Component {
             console.log(this.state.typeBars);
           }
         }
-        )
+        ).catch(function (error) {
+          console.log("Error: " + error);
+        });
     }
     else {
       this.handleIncorrectPokemon();
@@ -314,8 +322,8 @@ class App extends React.Component {
                 </td>
                 <td>
                   <center>
-                    <h1>Gen 1 Pokemon Team Generator</h1>
-                    <h2><i>Enter gen 1 Pokemon to create your team!</i></h2>
+                    <h1>Pokemon Team Generator</h1>
+                    <h2><i>Enter the name of Pokemon to create your team! (all lowercase) Or generate a random team below!</i></h2>
                     <input type="text" value={this.state.userInput} onChange={this.handleUserInput} style={{ width: 200, fontSize: 15, color: "red" }} />
                     <br />
                     <button type="button" style={{ width: 100, fontSize: 15, color: "blue" }} onClick={this.handleSubmit}>Submit</button>

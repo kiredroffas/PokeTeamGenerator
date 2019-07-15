@@ -1,13 +1,10 @@
 ## Screenshots
 
-![Alt text](/src/screenshots/screenshot1.png?raw=true "Screenshot 1")
-## --- If random button pressed a random team will be generated for you! Choose specific types if you wish!
-![Alt text](/src/screenshots/screenshot2.png?raw=true "Screenshot 2")
-## --- Otherwise enter in your own team manually! 
-![Alt text](/src/screenshots/screenshot3.png?raw=true "Screenshot 3")
-## --- If a non gen-1 pokemon is entered manually...
-![Alt text](/src/screenshots/screenshot4.png?raw=true "Screenshot 4")
-
+![Alt text](/src/screenshots/sc1.png?raw=true "Screenshot 1")
+## --- Enter in Pokemon names (all lowercase) to create your team manually!
+![Alt text](/src/screenshots/sc2.png?raw=true "Screenshot 2")
+## --- Otherwise if the random button is pressed a random team will be generated for you! Choose specific types if your wish!
+![Alt text](/src/screenshots/sc3.png?raw=true "Screenshot 3")
 ## --- TODO: Enable error checking to deal with randomly type selected pokemon with no sprite image (some new gen pokemon in PokeAPI have sprite value of 'null')
 
 
